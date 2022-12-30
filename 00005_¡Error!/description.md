@@ -23,6 +23,6 @@ Agora, se sobrepormos este modelo e os dados reais...
 <code>y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub> × x<sub>i</sub> + ε<sub>i</sub></code>
 </pre>
 
-Da mesma forma, <code>β<sub>0</sub></code> corresponde à ordenada da origem (ou seja, o valor de y quando todas as outras variáveis são zero), <code >β<sub>1</sub></code> com o efeito médio da mudança em `x` em `y` e <code>ε<sub>i</sub></ code> com **a distância** entre nossa linha ideal e cada observação.
+Da mesma forma, <code>β<sub>0</sub></code> corresponde à ordenada da origem (ou seja, o valor de y quando todas as outras variáveis são zero), <code>β<sub>1</sub></code> com o efeito médio da mudança em `x` em `y` e <code>ε<sub>i</sub></code> com **a distância** entre nossa linha ideal e cada observação.
 
 > Mas não se desespere! O fato de os valores ideais e observados não coincidirem perfeitamente não nos impedirá de procurar (e eventualmente estabelecer) uma relação entre `x` e `y` :muscle:. Junte-se a nós no seguinte exercício para entender como fazê-lo!
