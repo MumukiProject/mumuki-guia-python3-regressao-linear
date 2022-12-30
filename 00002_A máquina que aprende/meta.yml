@@ -30,4 +30,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Traduzir textos em diferentes idiomas
   checked: true
-name: La máquina que aprende
+name: A máquina que aprende
