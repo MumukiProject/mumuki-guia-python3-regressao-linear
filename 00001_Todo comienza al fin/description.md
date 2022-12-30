@@ -8,8 +8,8 @@ seaborn import sklearn
 Se a execução dessas linhas não lançar nenhum `ModuleNotFoundErrors`, então está feito! 🏁 E se não, não se desespere! Execute o seguinte em uma nova célula em seu cuaderno:
 
 ```bash
- !pip install seaborn
- !pip install scikit-learn
+!pip install seaborn
+!pip install scikit-learn
 ```
 
 E pronto! 🎉
