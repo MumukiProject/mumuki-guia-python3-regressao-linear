@@ -1,29 +1,28 @@
-Si bien cuando realizamos una _regresión lineal simple_ partimos de la suposición de que todos nuestros datos caen sobre una recta que describe la relación entre nuestras variables `x` e `y` :sunglasses: ...
+Embora quando fazemos _regressão linear simples_ começamos com a suposição de que todos os nossos dados caem em uma reta que descreve a relação entre nossas variáveis ​​`x` e `y` :sunglasses: ...
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_ideal_1672261074446.png" alt="lineal_ideal_1672261074446.png" width="auto" height="auto">
 
-...las observaciones _muy_ rara vez (bah, nunca :laughing:) cumplirán con esta idealidad. Mas bien, nuestros datos se verán así :disappointed::
+...as observações _muito_ raramente (bah, nunca :rindo:) eles vão cumprir essa idealidade. Em vez disso, nossos dados ficarão assim :disappointed::
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_noisy_1672261280083.png" alt="lineal_noisy_1672261280083.png" width="auto" height="auto">
 
 
-Como cada valor se aparta de la _recta ideal_ en un valor aleatorio de error (`ε`), es que la ecuación general correspondiente a un modelo de regresión lineal simple será más bien la siguiente:
+Como cada valor se desvia da _reta ideal_ por um valor de erro aleatório (`ε`), a equação geral para um modelo de regressão linear simples será a seguinte:
 
 <pre>
 <code>f(x) = b + m × x + ε</code>
 </pre>
 
-Ahora, si superponemos este modelo y los datos reales...
+Agora, se sobrepormos este modelo e os dados reais...
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_error_1672261651436.png" alt="lineal_error_1672261651436.png" width="auto" height="auto">
 
-... podríamos intentar calcular **la distancia** entre el valor real de cada `y` observado y su valor ideal. Por eso, la ecuación es frecuente también verla expresada en términos vectoriales, relacionando los valores que `x` e `y` toman como una serie de `i` observaciones, donde para cada una ellas se cumple que:  
+... poderíamos tentar calcular **a distância** entre o valor real de cada `y` observado e seu valor ideal. Por esse motivo, também é comum ver a equação expressa em termos vetoriais, relacionando os valores que `x` e `y` assumem como uma série de observações `i`, onde para cada uma delas vale o seguinte:  
 
 <pre>
 <code>y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub> × x<sub>i</sub> + ε<sub>i</sub></code>
 </pre>
 
-Análogamente, <code>β<sub>0</sub></code> se corresponde con la ordenada al origen (es decir, el valor de `y` cuando las demás variables son cero), <code>β<sub>1</sub></code> con el efecto promedio que tiene el cambio en `x` sobre `y` y <code>ε<sub>i</sub></code> con **la distancia** entre nuestra recta ideal y cada observación.
+Da mesma forma, <code>β<sub>0</sub></code> corresponde à ordenada da origem (ou seja, o valor de y quando todas as outras variáveis são zero), <code >β<sub>1</sub></code> com o efeito médio da mudança em `x` em `y` e <code>ε<sub>i</sub></ code> com **a distância** entre nossa linha ideal e cada observação.
 
-> ¡Pero a no desesperar! Que los valores ideales y observados no coincidan perfectamente no nos impedirá buscar (y eventualmente, establecer) una relación entre `x` e `y` :muscle:. ¡Acompañános al siguiente ejercicio para entender cómo hacerlo!
-
+> Mas não se desespere! O fato de os valores ideais e observados não coincidirem perfeitamente não nos impedirá de procurar (e eventualmente estabelecer) uma relação entre `x` e `y` :muscle:. Junte-se a nós no seguinte exercício para entender como fazê-lo!
