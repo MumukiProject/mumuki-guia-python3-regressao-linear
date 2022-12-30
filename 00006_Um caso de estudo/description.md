@@ -1,8 +1,9 @@
-Para continuar aprendiendo qué es y cómo se implementa un modelo de **regresión lineal simple**, utilizaremos un lote de datos bien conocido y usado en la literatura, [_Diabetes_](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html), que mide cuantitativamente el grado de avance a lo largo de un año de la enfermedad en 442 pacientes. Para ello, vamos a primero importar algunas bibliotecas, además de nuestra ya bien conocida `pandas`:
+Para continuar aprendendo o que é um modelo de **regressão linear simples** e como implementá-lo, usaremos um conjunto de dados bem conhecido e usado na literatura, [_Diabetes_](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html), que mediu quantitativamente o grau de progressão da doença ao longo de um ano em 442 pacientes. Para isso, vamos primeiro importar algumas bibliotecas, além dos nossos já conhecidos `pandas`:
  
-  * 🔢 `scipy`: una biblioteca de algoritmos matemáticos, muy útiles en el campo de la ciencia de datos; 
-  * 📈 `seaborn`, `matplotlib`: herramientas de graficación que complementan y extienden a las operaciones `.plot` provistas por `pandas`;
-  * 🤖 `sklearn` (abreviatura de _scikit-learn_): una popular biblioteca con algoritmos de aprendizaje automático, entre los cuales se encuentra, obviamente, soporte para regresión lineal 🎊 
+  * 🔢 `scipy`: uma biblioteca de algoritmos matemáticos, muito útil na área de ciência de dados;
+  * 📈 `seaborn`, `matplotlib`: ferramentas de graficação que complementam e estendem as operações `.plot` fornecidas pelos `pandas`;
+  * 🤖 `sklearn` (abreviação de _scikit-learn_): uma biblioteca popular com algoritmos de aprendizado automático, obviamente incluindo suporte para regressão linear. 🎊
+
 
 ```python
 import pandas as pd
