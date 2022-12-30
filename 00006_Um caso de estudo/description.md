@@ -51,4 +51,4 @@ del diabetes['s5']
 diabetes
 ```
 
-> :woman_construction_worker::man_construction_worker: Mãos à obra: copie e execute **todo** o código acima em um novo notebook. Em seguida, selecione quais das seguintes declarações são válidas.
+> :woman_construction_worker::man_construction_worker: Mãos à obra: copie e execute **todo** o código acima em um novo cuaderno. Em seguida, selecione quais das seguintes declarações são válidas.
