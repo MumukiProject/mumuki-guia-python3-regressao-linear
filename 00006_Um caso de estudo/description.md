@@ -17,23 +17,23 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
-# configuraciones opcionales para hacer a nuestros 
-# gráficos más "bonitos"
+# configurações opcionais para tornar nossos
+# gráficos mais bonitos
 plt.rcParams['image.cmap'] = "bwr"
 plt.rcParams['savefig.bbox'] = "tight"
 plt.style.use('ggplot')
 ```
 
-Luego, procederemos a cargar el lote de datos que nos interesa. En este caso, lo obtendremos de la propia biblioteca `scikit-learn`, que lo trae de regalo 🎁 entre sus datos de ejemplo...
+Em seguida, continuaremos a carregar o lote de dados em que estamos interessados. Neste caso, iremos obtê-lo da própria biblioteca `scikit-learn`, que o traz como brinde 🎁 entre seus dados de exemplo...
 
 ```python
 from sklearn import datasets
 
 diabetes = datasets.load_diabetes(as_frame=True)
-print(diabetes['DESCR']) 
+print(diabetes['DESCR'])
 ```
 
-... y realizaremos algunos ajustes a su estructura para que sea un poco más _tratable_: 
+... e faça alguns ajustes em sua estrutura para torná-la um pouco mais _tratável_:
 
 ```python
 diabetes = pd.concat((diabetes['data'], diabetes['target']), axis='columns')
@@ -51,4 +51,4 @@ del diabetes['s5']
 diabetes
 ```
 
-> :woman_construction_worker::man_construction_worker: Manos a la obra: copiá y ejecutá **todo** el código anterior en un nuevo cuaderno. Luego seleccioná cuáles de las siguientes afirmaciones son válidas. 
+> :woman_construction_worker::man_construction_worker: Mãos à obra: copie e execute **todo** o código acima em um novo notebook. Em seguida, selecione quais das seguintes declarações são válidas.
