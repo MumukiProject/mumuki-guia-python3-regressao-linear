@@ -16,7 +16,7 @@ df["(m / x) + b"] = df["x"].map(lambda x: 5 / x + 12)
 df
 
 # Traçamos cada uma das curvas anteriores
-# ⚠️ É importante plotar cada uma delas em uma célula diferente do seu notebook
+# ⚠️ É importante plotar cada uma delas em uma célula diferente do seu cuaderno
 sns.lineplot(dados=df, x= "x", y="b × m + x")
 sns.lineplot(dados=df, x="x", y="b + m × x")
 sns.lineplot(data=df, x="x)", y="x² + x")
