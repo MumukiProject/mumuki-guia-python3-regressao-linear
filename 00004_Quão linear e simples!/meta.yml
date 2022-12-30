@@ -21,4 +21,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "<code>f(x) = m / x + b</code>"
   checked: false
-name: "¡Qué simple y lineal!"
+name: Quão linear e simples!
