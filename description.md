@@ -1,3 +1,3 @@
-¡La ciencia de datos es un mundo enorme! Pero de entre todas las cosas que quizás habrás escuchado alguna vez sobre esta disciplina, probablemente el aprendizaje automático (o aprendizaje de máquina, o _machine learning_) sea una de las qué más resuena 📣. Al fin y al cabo, ver una máquina :robot:  que aprende no es algo de todos los días, ¿no?  Comprendamos entonces qué es el aprendizaje automático, qué son las técnica de regresión y desarrollemos nuestro primer modelo de _regresión lineal_.
+A ciência de dados é um mundo enorme! Mas entre todas as coisas que você já deve ter ouvido sobre essa disciplina, o aprendizado automático  (ou aprendizado de máquina, ou _machine learning_) é provavelmente um dos mais ressonantes 📣. Afinal, ver uma máquina de aprendizado :robot: não é algo que você faz todos os dias, não é? Então, vamos entender o que é aprendizado automático, quais são as técnicas de regressão e desenvolver nosso primeiro modelo de _regressão linear_.
 
-¡Acompañános!
+Junte-se a nós!

@@ -1,15 +1,15 @@
-Para realizar esta lección vamos a necesitar dos nuevas bibliotecas: [Seaborn](https://seaborn.pydata.org/) y [scikit-learn](https://scikit-learn.org/stable/index.html). Antes de empezar a trabajar, asegurate de contar con ellas, ejecutando los siguientes comandos en un cuaderno vacío: 
+Para realizar esta lição, precisaremos de duas novas bibliotecas: [Seaborn](https://seaborn.pydata.org/) e [scikit-learn](https://scikit-learn.org /stable/index.html). Antes de começar a trabalhar, certifique-se de tê-los executando os seguintes comandos em um notebook vazio:
 
 ```python
-import seaborn
-import sklearn
+import
+seaborn import sklearn
 ```
 
-Si al correr estas líneas no se produce ningún `ModuleNotFoundError`, ¡entonces ya estás en condiciones de empezar! 🏁 Y si no, ¡a no desesperar! Ejecutá lo siguiente en una nueva celda de tu cuaderno:
+Se a execução dessas linhas não lançar nenhum `ModuleNotFoundErrors`, então está feito! 🏁 E se não, não se desespere! Execute o seguinte em uma nova célula em seu notebook:
 
 ```bash
  !pip install seaborn
  !pip install scikit-learn
 ```
 
-¡Y listo! 🎉
+E pronto! 🎉

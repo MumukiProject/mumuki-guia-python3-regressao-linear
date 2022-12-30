@@ -1,1 +1,1 @@
-Este recorrido se basa en el material  Introducción a la Ciencia de Datos con Python](https://github.com/AJVelezRueda/Fundamentos_de_informatica/blob/master/Ciencia_de_datos/Regresion_lineal.md) de Ana Julia Velez Rueda
+Este passeio é baseado no material [Introducción a la Ciencia de Datos con Python](https://github.com/AJVelezRueda/Fundamentos_de_informatica/blob/master/Ciencia_de_datos/Regresion_lineal.md) de Ana Julia Velez Rueda
