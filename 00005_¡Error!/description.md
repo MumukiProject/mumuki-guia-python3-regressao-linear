@@ -1,8 +1,8 @@
-Embora quando fazemos _regressão linear simples_ começamos com a suposição de que todos os nossos dados caem em uma reta que descreve a relação entre nossas variáveis ​​`x` e `y` :sunglasses: ...
+Embora quando fazemos _regressão linear simples_ começamos com a suposição de que todos os nossos dados caem em uma reta que descreve a relação entre nossas variáveis `x` e `y` :sunglasses: ...
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_ideal_1672261074446.png" alt="lineal_ideal_1672261074446.png" width="auto" height="auto">
 
-...as observações _muito_ raramente (bah, nunca :rindo:) eles vão cumprir essa idealidade. Em vez disso, nossos dados ficarão assim :disappointed::
+...as observações _muito_ raramente (bah, nunca :laughing:) vão cumprir essa idealidade. Em vez disso, nossos dados ficarão assim :disappointed::
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_noisy_1672261280083.png" alt="lineal_noisy_1672261280083.png" width="auto" height="auto">
 
