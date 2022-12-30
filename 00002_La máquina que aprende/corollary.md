@@ -1,1 +1,1 @@
-¡Sí! El aprendizaje automático 🤖 (o _machine learning_ en inglés) nos ofrecerá herramientas, estrategias y métodos para resolver problemas en los que debemos detectar situaciones frecuentes pero difíciles de definir de forma taxativa. 
+Sim! O aprendizado automático 🤖 nos oferecerá ferramentas, estratégias e métodos para resolver problemas nos quais devemos detectar situações frequentes, mas difíceis de definir.
