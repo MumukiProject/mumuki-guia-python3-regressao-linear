@@ -21,4 +21,4 @@ choices:
   value: El índice de masa corporal (`body_mass_index`) es el factor que mas influye
     en el desarrollo de la enfermedad (`response`)
   checked: true
-name: Una primera aproximación
+name: Uma primeira aproximação
