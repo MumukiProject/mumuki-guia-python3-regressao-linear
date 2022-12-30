@@ -1,0 +1,25 @@
+---
+name: Regressão linear
+locale: pt
+type: learning
+beta: false
+teacher_info: ''
+language: python3
+id_format: "%05d"
+order:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 15
+- 13
+- 14
+private: false

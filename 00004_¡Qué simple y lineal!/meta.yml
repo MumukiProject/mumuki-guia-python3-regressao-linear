@@ -1,0 +1,24 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "<code>f(x) = b × m + x</code>"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "<code>f(x) = b + m × x</code>"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "<code>f(x) = x<sup>2</sup> + x</code>"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "<code>f(x) = m / x + b</code>"
+  checked: false
+name: "¡Qué simple y lineal!"

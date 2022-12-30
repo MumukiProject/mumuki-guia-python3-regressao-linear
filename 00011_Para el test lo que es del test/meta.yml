@@ -1,0 +1,31 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Los valores de la ordenada y la pendiente se mantienen constantes
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Los valores de la ordenada y la pendiente son menores
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Los valores de la ordenada y la pendiente a veces son menores, a veces son
+    mayores
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "<code>R<sup>2</sup></code> se mantiene constante"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "<code>R<sup>2</sup></code> es menor"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "<code>R<sup>2</sup></code> a veces es menor, a veces es mayor"
+  checked: true
+name: Para el test lo que es del test

@@ -1,0 +1,1 @@
+¡Muy bien! :grin: Este `DataFrame` tiene más de 2 columnas, por lo que no podemos relacionar a todas ellas usando un modelo de regresión lineal **simple**. Pero... ¿podremos generar un modelo que relacione a dos :v: de ellas? ¡Descubrámoslo!

@@ -1,0 +1,25 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla `diabetes` tiene 8 columnas
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla `diabetes` tiene 10 columnas
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La tabla `diabetes` tiene 11 columnas
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Es posible generar un modelo de regresión lineal simple que relaciones todas
+    sus variables
+  checked: false
+name: Un caso de estudio

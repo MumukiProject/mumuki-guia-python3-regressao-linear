@@ -1,0 +1,28 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El resultado **es  significativo** y el valor de `pearsonr` **coincide**
+    con el obtenido mediante `corr()`
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El resultado **no es significativo** y el valor de `pearsonr` **coincide**
+    con el obtenido mediante `corr()`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El resultado **es significativo** y el valor de `pearsonr` **no coincide**
+    con el obtenido mediante `corr()`
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El resultado **no es significativo** y el valor de `pearsonr` **no coincide**
+    con el obtenido mediante `corr()`
+  checked: false
+name: Hilando más fino

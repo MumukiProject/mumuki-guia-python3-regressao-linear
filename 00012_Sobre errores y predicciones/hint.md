@@ -1,0 +1,1 @@
+⚖️ Para ajustar la proporción de datos asignada a `train`, podés cambiá el valor parámetro `train_size` de `train_test_split`. El resto será asignado a `test`. 

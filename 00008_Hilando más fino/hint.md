@@ -1,0 +1,1 @@
+Tené en cuenta que la función `pearsonr` tiene más precisión (es decir, devuelve más decimales) que `corr`, por lo que no vas a poder comparar todas las posiciones decimales. 

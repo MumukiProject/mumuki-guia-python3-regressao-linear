@@ -1,0 +1,33 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Escribir programas sencillos en Python
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Corregir faltas de ortografía
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Generar textos automáticamente
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ofrecer asistencia a tareas rutinarias mediante comandos de voz
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Detectar fraudes bancarios
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Recomendar películas y canciones
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Traducir textos en diferentes idiomas
+  checked: true
+name: La máquina que aprende

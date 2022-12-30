@@ -1,0 +1,23 @@
+- name: 'Correlación entre <code>period</code> y <code>messages_count</code>, en valores absolutos, calculada usando <code>spearmanr</code> y usando todos su dígitos'
+  keys:
+    spearman:
+      match: 0\.99644      
+- name: 'Dirección de la relación entre <code>period</coode> y <code>messages_count</code>'
+  keys:
+    direction:
+      equal: Son inversamente proporcionales 
+- name: '<em>pvalue</em> de la correlación entre period y <code>message_count</code>, calculado usando <code>spearmanr</code>'
+  keys:
+    pvalue:
+      equal: Menor a 0.0001 
+- name: 'Significancia de la relación entre <code>period</code> y <code>messages_count</code>'
+  keys:
+    significance:
+      equal: Existe una relación y es significativa 
+- name: 'RMSE<sub>normalizado</sub> luego de separar y entrenar con <code>train_size = 0.75, random_state = 13</code>'
+  keys:
+    rmsenorm:
+      match: 0\.11149 
+
+
+

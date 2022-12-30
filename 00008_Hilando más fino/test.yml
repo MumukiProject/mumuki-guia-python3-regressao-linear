@@ -1,0 +1,3 @@
+---
+equal: El resultado **es  significativo** y el valor de `pearsonr` **coincide** con
+  el obtenido mediante `corr()`

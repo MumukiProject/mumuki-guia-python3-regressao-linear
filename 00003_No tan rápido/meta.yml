@@ -1,0 +1,28 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La inteligencia artificial permite desarrollar automáticamente algoritmos
+    objetivos y libres de sesgos
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Si los datos utilizados para entrenar los algoritmos de aprendizaje automático
+    están sesgados, esos sesgos se transferirián al modelo resultante
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Las empresas rara vez recolectan datos de sus clientes y las personas que
+    las usan
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La privacidad de la información es un problema únicamente relevante para
+    altos puestos políticos y empresariales
+  checked: false
+name: No tan rápido

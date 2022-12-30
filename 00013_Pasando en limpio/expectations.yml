@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:predecir_respuesta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:predecir_respuesta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: predecir_respuesta
+  inspection: Not:Uses:modelo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: predecir_respuesta
+  inspection: Uses:transformar_imc
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: predecir_respuesta
+  inspection: UsesMath

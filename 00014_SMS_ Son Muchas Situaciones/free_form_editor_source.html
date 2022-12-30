@@ -1,0 +1,39 @@
+<div class="form-horizontal">
+  <fieldset>
+    <label for="spearman">¿Cuál es la correlación entre <code>period</code> y <code>messages_count</code>, en términos absolutos? Calculala usando el método de Spearman</label>
+    <input type="number" name="spearman" class="form-control mu-free-form-input mu-inline-input">
+  </fieldset>
+  <fieldset>
+    <label for="direction">¿Cómo es la relación entre estas dos variables?</label>
+    <select name="direction" class="form-control mu-free-form-input mu-inline-select">
+      <option selected>No hay relación aparente</option>
+      <option>Son directamente proporcionales</option>
+      <option>Son inversamente proporcionales</option>
+    </select>
+  </fieldset>  
+  <fieldset>
+    <label for="pvalue">¿Cuál es el valor p (<em>p-value</em>) de esta correlación?</label>
+    <select name="pvalue" class="form-control mu-free-form-input mu-inline-select">
+      <option selected>Entre 0 y 0.1</option>
+      <option>Entre 0.1 y 0.01</option>
+      <option>Entre 0.01 y 0.001</option>
+      <option>Entre 0.001 y 0.0001</option>
+      <option>Menor a 0.0001</option>
+    </select>   
+  <fieldset>
+    <label for="significance">¿Es signitiva esta relación?</label>
+    <select name="significance" class="form-control mu-free-form-input mu-inline-select">
+      <option selected>No hay relación aparente</option>
+      <option>Existe una relación, pero no es significativa</option>
+      <option>Existe una relación y es significativa</option>
+    </select>
+  </fieldset> 
+  <fieldset>
+    <label for="rmsenorm">Si separás los datos en entrenamiento y prueba con <code>train_size = 0.75</code> y <code>random_state = 13</code> y ajustás un modelo de regresión lineal sobre estas dos variables, ¿cuál es su RMSE<sub>normalizado</sub>?</label>
+    <input type="number" name="rmsenorm" class="form-control mu-free-form-input mu-inline-input">
+  </fieldset>
+  <fieldset>
+    <label for="conclusion">Para pensar: si graficás y observás la recta ideal contra las observaciones de ambas variables, ¿considerás que es un buen modelo? </label>
+    <textarea name="conclusion" class="form-control mu-free-form-input"></textarea>
+  </fieldset>  
+</div>
