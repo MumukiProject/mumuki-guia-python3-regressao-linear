@@ -1,15 +1,14 @@
-¡Braaaaavo! Ya tenemos nuestro primer modelo de regresión lineal simple funcionando. Si lo probás con múltiples valores o trazás la recta obtenida...
+Braaaavo! Já temos nosso primeiro modelo de regressão linear simples funcionando. Se você tentar com vários valores ou desenhar a linha reta obtida...
 
 ```python
-# gráfica similar a que anteriormente realizamos usando regplot
-# pero ahora utilizando a las predicciones del modelo que ajustamos
+# gráfico semelhante ao que fizemos anteriormente usando regplot
+# mas agora usando as previsões do modelo que ajustamos
 sns.scatterplot(x="body_mass_index", y="response", data=diabetes)
-sns.lineplot(x="body_mass_index", y=modelo.predict(X = X.values), data=diabetes)
+sns.lineplot(x="body_mass_index", y=model.predict(X = X.values), data=diabetes)
 ```
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/regplot_real_1672436347390.png" alt="regplot_real_1672436347390.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guide-python3-linear-regression/master/assets/regplot_real_1672436347390.png" alt="regplot_real_1672436347390.png" width="auto" height=" carro">
 
-... vas a notar que muchos de los resultados se apartan de lo esperado, porque al fin y al cabo no deja de ser nuestra primera aproximación. 
+... você vai perceber que muitos dos resultados não coincidem ao esperado, porque afinal ainda é a nossa primeira aproximação.
 
-🧑‍🌾 _No será mucho, pero es trabajo honesto._ 
-
+🧑‍🌾 _Não é muito, mas é trabalho honesto._
