@@ -1,3 +1,3 @@
-:clap: ¡Bravo! En esta lección descubrimos al aprendizaje automático, estudiamos el análisis de correlación y significancia entre variables, las técnicas de regresión lineal y su modelo matemático subyacente, una metodología de división en entrenamiento y prueba, y algunas formas de evaluar el error y la capacidad predictiva del modelo. 
+:clap: Bravo! Nesta lição descobrimos o aprendizado automático, estudamos a análise de correlação e significância entre variáveis, técnicas de regressão linear e seu modelo matemático subjacente, uma metodologia de divisão em treinamento e teste e algumas formas de avaliar o erro e a capacidade preditiva do modelo .
 
-:robot: Pero, la regresión y predicción de valores no es la única tarea que podemos resolver mediante el aprendizaje automático. ¡Acompañános a conocer otras! 
+:robot: Mas, a regressão e previsão de valores não é a única tarefa que podemos resolver usando aprendizado automático. Junte-se a nós para conhecer outros!
