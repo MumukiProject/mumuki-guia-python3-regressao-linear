@@ -1,4 +1,4 @@
-Como punto de partida, podés usar la siguiente función: 
+Como ponto de partida, você pode usar a seguinte função:
 
 ```python
 def normalizar_rmse(rmse, y):
