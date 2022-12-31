@@ -10,15 +10,15 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: La edad (`age`) es un factor con poca influencia en el desarrollo de la enfermedad
+  value: A idade (`age`) é um fator com pouca influência no desenvolvimento da doença
     (`response`)
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El sexo biológico (`sex`)  es un factor con poca influencia en el desarrollo
-    de la enfermedad (`response`)
+  value: O sexo biológico (`sex`) é um fator com pouca influência no desenvolvimento
+    da doença (`response`)
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: El índice de masa corporal (`body_mass_index`) es el factor que mas influye
-    en el desarrollo de la enfermedad (`response`)
+  value: O índice de massa corporal (`body_mass_index`) é o fator que mais influencia
+    o desenvolvimento da doença (`response`)
   checked: true
 name: Uma primeira aproximação

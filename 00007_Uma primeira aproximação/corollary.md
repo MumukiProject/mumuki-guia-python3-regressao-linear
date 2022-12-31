@@ -1,11 +1,11 @@
-¡Excelente! :confetti_ball: 
+Excelente! :confetti_ball: 
 
 
 ```python
 ム correlaciones['response']
 age                          0.187889
 sex                          0.043062
-body_mass_index              0.586450 # <= esta es la correlación que nos interesa
+body_mass_index              0.586450 # <= esta é a correlação que nos interessa
 average blood pressure       0.441484
 total_serum_cholesterol      0.212022
 low_density_lipoproteins     0.174054
@@ -15,22 +15,24 @@ blood_sugar_level            0.382483
 response                     1.000000
 ```
 
-Si nos basamos exclusivamente en la correlación, _parece_ que las personas con mayor [índice de masa corporal](https://es.wikipedia.org/wiki/%C3%8Dndice_de_masa_corporal) presentan un mayor desarrollo de la enfermedad. Esto lo podemos afirmar porque: 
+Se confiarmos exclusivamente na correlação, _parece_ que pessoas com maior [índice de massa corporal](https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal) têm maior desenvolvimento da doença. Podemos afirmar isso porque:
 
-  * En términos absolutos, la correlación entre estas dos variables es mayor a `0.5` (recordemos que `0` representa la no-correlación y `1`, la correlación máxima); 
-  * Y además la correlación es de signo positivo, lo que indica una relación directa. 
+  * Em termos absolutos, a correlação entre essas duas variáveis é maior que `0,5` (lembre-se que `0` representa nenhuma correlação e `1`, a correlação máxima);
+  * E também a correlação tem sinal positivo, o que indica uma relação direta.
 
-Otra forma útil de visualizar estas correlaciones es mediante un [_mapa de calor_](https://es.wikipedia.org/wiki/Mapa_de_calor) 🥵, que asigne puntos más claros a aquellos pares con mayor correlación: 
+Outra forma útil de visualizar essas correlações é por meio de um [_mapa de calor_](https://pt.wikipedia.org/wiki/Mapa_de_calor) 🥵, que atribui pontos mais leves aos pares com maior correlação:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/heatmap_1672264640360.png" alt="heatmap_1672264640360.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-linear-regression/master/assets/heatmap_1672264640360.png" alt="heatmap_1672264640360.png" width="auto" height="auto">
 
-(:eyes: _observá la tercera columna de la última fila, o lo que es lo mismo, la tercera fila de la última columna_)
+(:eyes: _look na terceira coluna da última linha, ou o que é o mesmo, na terceira linha da última coluna_)
 
-Para generarlo, podés hacer lo siguiente: 
+Para gerá-la, você pode fazer o seguinte:
 
 ```python
 sns.heatmap(correlaciones.abs())
 ```
 
-:wave: Probalo y nos vemos en el siguiente ejercicio.
+:wave: Experimente e até o próximo exercício.
+ 
+
   
