@@ -20,7 +20,7 @@ Excelente!
 <code>y = f (X) = β<sub>0</sub> + β<sub>1</sub> × x<sub>1</sub>, β<sub>2</sub> × x<sub> 2</sub>,..., β<sub>n</sub> × x<sub>n</sub></code>
 </pre>
 
-Mas como estamos trabalhando com regressões lineares simples, temos um único ** ** `x` (sim, letras minúsculas) torna as coisas mais... simples :stuck_out_tongue_closed_eyes::
+Mas como estamos trabalhando com regressões lineares simples, temos **um único** `x` (sim, letras minúsculas) torna as coisas mais... simples :stuck_out_tongue_closed_eyes::
 
 <pre>
 <code>y = f(x) = β<sub>0</sub> + β <sub>1</sub> × x</code>
