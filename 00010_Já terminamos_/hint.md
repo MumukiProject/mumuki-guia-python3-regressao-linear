@@ -1,0 +1,1 @@
+Se a interpretação de <code>R<sup>2</sup></code> se tornar difícil com a definição acima, você também pode pensar nisso como uma medida entre `0` e `1` que informa quantas observações de `x` explicam os de `y`. :wink:
