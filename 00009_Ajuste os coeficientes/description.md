@@ -13,7 +13,7 @@ modelo = LinearRegression()
 modelo.fit(X = X.values, y = y)
 ```
  
-Como vemos, devemos primeiro criar um `modelo` e depois ajustá-lo usando sua operação `fit` , indicando os valores de `X` e `y`. Então podemos imprimir os valores encontrados da ordenada para a origem (`intercept_`) e a declive (o primeiro valor do vetor `coef_`):
+Como vemos, devemos primeiro criar um `modelo` e depois ajustá-lo usando sua operação `fit` , indicando os valores de `X` e `y`. Então podemos imprimir os valores encontrados da ordenada para a origem (`intercept_`) e o declive (o primeiro valor do vetor `coef_`):
  
 ```python
 print("Intercepto:", modelo.intercept_)
