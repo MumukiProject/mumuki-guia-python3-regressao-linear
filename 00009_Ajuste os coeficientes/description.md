@@ -17,7 +17,7 @@ Como vemos, devemos primeiro criar um `modelo` e depois ajustá-lo usando sua op
  
 ```python
 print("Intercepto:", modelo.intercept_)
-print("Declive:" , list(zip(X.columns, modelo.coef_.flatten())))
+print("Declive:", list(zip(X.columns, modelo.coef_.flatten())))
 ```
  
 > Copie e execute o código acima e responda. Qual das equações **melhor representa** o modelo obtido?
