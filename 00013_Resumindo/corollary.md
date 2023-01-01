@@ -7,7 +7,7 @@ sns.scatterplot(x="body_mass_index", y="response", data=diabetes)
 sns.lineplot(x="body_mass_index", y=modelo.predict(X = X.values), data=diabetes)
 ```
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guide-python3-regresion-lineal/master/assets/regplot_real_1672436347390.png" alt="regplot_real_1672436347390.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/regplot_real_1672436347390.png" alt="regplot_real_1672436347390.png" width="auto" height="auto">
 
 ... você vai perceber que muitos dos resultados não coincidem ao esperado, porque afinal ainda é a nossa primeira aproximação.
 
