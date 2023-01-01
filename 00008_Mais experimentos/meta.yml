@@ -25,4 +25,4 @@ choices:
   value: El resultado **no es significativo** y el valor de `pearsonr` **no coincide**
     con el obtenido mediante `corr()`
   checked: false
-name: Hilando más fino
+name: Mais experimentos

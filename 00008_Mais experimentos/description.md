@@ -6,7 +6,7 @@ Portanto, antes de continuar faremos mais alguns testes. 📈 Primeiro, traçare
 
 ```python
 # Scatterplot + regressão, realizado com
-seaborn sns.regplot(x="body_mass_index" , y="response", data=diabetes)
+seaborn sns.regplot(x="body_mass_index", y="response", data=diabetes)
 ```
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guide-python3-linear-regression/master/assets/diabetes_with_regression_1672268060049.png " alt ="diabetes_with_regression_1672268060049.png" width="auto" height="auto">

@@ -24,7 +24,7 @@ Outra forma útil de visualizar essas correlações é por meio de um [_mapa de 
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/heatmap_1672264640360.png" alt="heatmap_1672264640360.png" width="auto" height="auto">
 
-(:eyes: _olhe para a terceira coluna da última linha, ou o que é o mesmo, na terceira linha da última coluna_)
+(:eyes: _olhe a terceira coluna da última linha, ou o que é o mesmo, na terceira linha da última coluna_)
 
 Para gerá-la, você pode fazer o seguinte:
 
