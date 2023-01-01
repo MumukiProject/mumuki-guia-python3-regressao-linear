@@ -1,39 +1,39 @@
 <div class="form-horizontal">
   <fieldset>
-    <label for="spearman">¿Cuál es la correlación entre <code>period</code> y <code>messages_count</code>, en términos absolutos? Calculala usando el método de Spearman</label>
+    <label for="spearman">Qual ​​é a correlação entre <code>period</code> e <code>messages_count</code>, em termos absolutos? Calcule usando o método de Spearman</label>
     <input type="number" name="spearman" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>
   <fieldset>
-    <label for="direction">¿Cómo es la relación entre estas dos variables?</label>
+    <label for="direction">Qual ​​é a relação entre essas duas variáveis?
     <select name="direction" class="form-control mu-free-form-input mu-inline-select">
-      <option selected>No hay relación aparente</option>
-      <option>Son directamente proporcionales</option>
-      <option>Son inversamente proporcionales</option>
+      <option selected>Sem relação aparente</option>
+      <option>São diretamente proporcionais</option>
+      <option>São inversamente proporcionais</option>
     </select>
   </fieldset>  
   <fieldset>
-    <label for="pvalue">¿Cuál es el valor p (<em>p-value</em>) de esta correlación?</label>
+    <label for="pvalue">Qual ​​é o valor-p (<em>p-value</em>) dessa correlação?</label>
     <select name="pvalue" class="form-control mu-free-form-input mu-inline-select">
-      <option selected>Entre 0 y 0.1</option>
-      <option>Entre 0.1 y 0.01</option>
-      <option>Entre 0.01 y 0.001</option>
-      <option>Entre 0.001 y 0.0001</option>
-      <option>Menor a 0.0001</option>
+      <option selected>Entre 0 e 0.1</option>
+      <option>Entre 0.1 e 0.01</option>
+      <option>Entre 0.01 e 0.001</option>
+      <option>Entre 0.001 e 0.0001</option>
+      <option>Menos de 0.0001</option>
     </select>   
   <fieldset>
-    <label for="significance">¿Es signitiva esta relación?</label>
+    <label for="significance">Esta relação é significativa?</label>
     <select name="significance" class="form-control mu-free-form-input mu-inline-select">
-      <option selected>No hay relación aparente</option>
-      <option>Existe una relación, pero no es significativa</option>
-      <option>Existe una relación y es significativa</option>
+      <option selected>Sem relação aparente</option>
+      <option>Existe uma relação, mas não é significativo</option>
+      <option>Existe uma relação e é significativo</option>
     </select>
   </fieldset> 
   <fieldset>
-    <label for="rmsenorm">Si separás los datos en entrenamiento y prueba con <code>train_size = 0.75</code> y <code>random_state = 13</code> y ajustás un modelo de regresión lineal sobre estas dos variables, ¿cuál es su RMSE<sub>normalizado</sub>?</label>
+    <label for="rmsenorm">Se você separar os dados em treinamento e teste com <code>train_size = 0.75</code> e <code>random_state = 13</code> e ajustar um modelo de regressão linear nessas duas variáveis, qual é o seu RMSE<sub>normalizado</sub>?</label>
     <input type="number" name="rmsenorm" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>
   <fieldset>
-    <label for="conclusion">Para pensar: si graficás y observás la recta ideal contra las observaciones de ambas variables, ¿considerás que es un buen modelo? </label>
+    <label for="conclusion">Para pensar: se você traçar e olhar a reta ideal contra as observações de ambas as variáveis, você acha que é um bom modelo?</label>
     <textarea name="conclusion" class="form-control mu-free-form-input"></textarea>
   </fieldset>  
 </div>
