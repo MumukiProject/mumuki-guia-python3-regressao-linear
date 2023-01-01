@@ -1,4 +1,4 @@
-Agora que validamos gráfica e numericamente que a correlação é significativa (embora não muito forte, apenas ≈ `0,6`), podemos finalmente desenvolver (ou como costuma-se dizer, _ajustar_) nosso modelo de regressão linear simples. :raised_hands: Ajustar  
+Agora que validamos gráfica e numericamente que a correlação é significativa (embora não muito forte, apenas ≈ `0.6`), podemos finalmente desenvolver (ou como costuma-se dizer, _ajustar_) nosso modelo de regressão linear simples. :raised_hands: Ajustar  
  
 o modelo consiste em estimar, a partir dos dados disponíveis:
  
