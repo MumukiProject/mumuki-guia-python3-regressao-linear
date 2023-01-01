@@ -9,7 +9,7 @@ y = diabetes['response']
 X_train, X_test, y_train, y_test = train_test_split(
   X.values.reshape(-1,1),
   y.values,
-  train_size = 0,8,
+  train_size = 0.8,
   random_state = 42,  
   shuffle = True
 )
