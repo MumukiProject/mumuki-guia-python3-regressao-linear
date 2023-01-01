@@ -5,11 +5,11 @@ Bem, embora tenhamos elementos para explorar essa possibilidade, não vamos nos 
 Portanto, antes de continuar faremos mais alguns testes. 📈 Primeiro, traçaremos as observações usando um `regplot`, que combina um gráfico de dispersão e sobrepõe os resultados em uma linha de regressão ideal:
 
 ```python
-# Scatterplot + regressão, realizado com
-seaborn sns.regplot(x="body_mass_index", y="response", data=diabetes)
+# Scatterplot + regressão, realizado com seaborn 
+sns.regplot(x="body_mass_index" , y="response", data=diabetes)
 ```
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guide-python3-linear-regression/master/assets/diabetes_with_regression_1672268060049.png " alt ="diabetes_with_regression_1672268060049.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/diabetes_with_regression_1672268060049.png" alt="diabetes_with_regression_1672268060049.png" width="auto" height="auto">
 
 Bom 👍! Podemos ver que a linha ideal parece acompanhar as observações. 🧮 Façamos então nosso segundo teste, que consiste em calcular o _coeficiente de correlação de Pearson_ e seu _P-valor_ (ou em inglês, _P-value_):
 
@@ -21,7 +21,7 @@ Bom 👍! Podemos ver que a linha ideal parece acompanhar as observações. 🧮
 corr, pvalue = pearsonr(
   x = diabetes['body_mass_index'],
   y = diabetes['response'])
-print("Coeficiente de correlação de Pearson:", corr )
+print("Coeficiente de correlação de Pearson:", corr)
 print(" P-value:", pvalue)
 ```
 

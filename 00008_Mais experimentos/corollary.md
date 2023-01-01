@@ -1,13 +1,13 @@
-En efecto, el coeficiente de Person nos arrojó `0.58645...`, que coincide con el valor obtenido mediante `corr()`. El motivo es simple: `corr()` utiliza por defecto el método de Pearson (`'pearson'`)...
+De fato, o coeficiente de Person nos deu `0.58645...`, que coincide com o valor obtido por `corr()`. A razão é simples: `corr()` usa por padrão o método de Pearson (`'pearson'`)...
 
 ```python
-# esta línea ...
+# esta linha ...
 diabates.corr()
-# ... es equivalente a 
-diabates.corr('pearson')
+# ... é equivalente a
+diabates.corr( 'pearson')
 ```
 
-Pero bien se podría usar otro método, como por ejemplo el coeficiente de correlación de Spearman (`'spearman'`): 
+Mas você pode usar outro método, como o coeficiente de correlação de Spearman (`'spearman'`):
 
 ```python
 ム diabetes.corr('spearman')['body_mass_index']['response']
@@ -23,22 +23,15 @@ blood_sugar_level            0.350792
 response                     1.000000
 ```
 
-De igual forma, podemos usar la función `spearmanr` de `scipy`: 
+Da mesma forma, podemos usar a função `spearmanr` de `scipy`:
 
 ```python
-ム spearmanr(diabetes['body_mass_index'], diabetes['response'])
+ム spearmanr(diabetes ['body_mass_index'], diabetes['response'])
 SpearmanrResult(correlation=0.5613820101065616, pvalue=4.567023927725032e-38)
 ```
 
-¿Y por qué existen múltiples métodos? ¡Es que cada uno sirve para situaciones diferentes! Concretamente, `pearsonr` está pensado para ser usado con variables que siguen una [distribución normal](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_normal)...
+E por que existem vários métodos? É que cada um serve para situações diferentes! Especificamente, `pearsonr` destina-se a ser usado com variáveis ​​que seguem uma [distribuição normal](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_normal)...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EvHiee7gs9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-... mientras que `spearmanr` no tiene esta exigencia  (la cual deberíamos primero evaluar realizando [una prueba de normalidad como el test de Shapiro-Wilk](https://es.wikipedia.org/wiki/Prueba_de_Shapiro%E2%80%93Wilk)), por lo que de ahora en más utilizaremos esta última. 
-
-
-
-
-
-
-
+... Considerando que `spearmanr` não tem esse requisito (que devemos primeiro testar realizando [um teste de normalidade como o de Shapiro-Wilk](https://pt.wikipedia.org/wiki/Teste_de_Shapiro%E2%80%93Wilk)), então a partir de agora usaremos o último.
