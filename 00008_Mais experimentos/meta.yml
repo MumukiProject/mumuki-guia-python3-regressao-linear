@@ -10,19 +10,19 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: O resultado **é significativo** e o valor de `pearsonr` **corresponde** ao
-    valor obtido por `corr()`
+  value: O resultado **é significativo** e o valor de `pearsonr` **corresponde** com
+    o valor obtido por `corr()`
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: O resultado **não é significativo** e o valor de `pearsonr` **corresponde**
-    ao valor obtido por `corr()`
+    com o valor obtido por `corr()`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: O resultado **é significativo** e o valor de `pearsonr` **não bate** com
-    o obtido por `corr()`
+  value: O resultado **é significativo** e o valor de `pearsonr` **não corresponde**
+    com o valor obtido por `corr()`
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: O resultado **não é significativo** e o valor de `pearsonr` **não corresponde**
-    ao obtido por `corr()`
+    com o valor obtido por `corr()`
   checked: false
 name: Mais experimentos

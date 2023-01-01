@@ -1,3 +1,3 @@
 ---
-equal: O resultado **é significativo** e o valor de `pearsonr` **corresponde** ao
-  valor obtido por `corr()`
+equal: O resultado **é significativo** e o valor de `pearsonr` **corresponde** com
+  o valor obtido por `corr()`
