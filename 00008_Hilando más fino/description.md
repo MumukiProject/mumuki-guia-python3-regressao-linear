@@ -1,28 +1,28 @@
-Todo parece indicar que existe un vínculo entre el índice de masa corporal y el avance de la diabetes en los pacientes de este lote de datos. Con esto en mente, ya podemos intentar expresar este vínculo como `response = f(body_mass_index)`, siendo `f` una función lineal, ¿no? 😀
+Tudo parece indicar que existe uma ligação entre o índice de massa corporal e a progressão do diabetes nos pacientes deste lote de dados. Com isso em mente, podemos agora tentar expressar esta  relação como `response = f(body_mass_index)`, onde `f` é uma função linear, certo? 😀
 
-Bueno, si bien tenemos elementos para explorar esa posibilidad, no nos apresuremos 🐢. La relación podría aún no ser **lineal**, o incluso podría no ser _significativa_ y deberse a, lisa y llanamente, la casualidad. :confused: 
+Bem, embora tenhamos elementos para explorar essa possibilidade, não vamos nos apressar 🐢. A relação pode ainda não ser **linear**, ou pode nem ser _significativa_ e simplesmente casual. :confused:
 
-Por eso, antes de continuar haremos algunas pruebas más. 📈 Primero, graficaremos las observaciones empleando un `regplot`, que combina un gráfico de dispersión y superpone los resultados sobre una recta ideal de regresión: 
+Portanto, antes de continuar faremos mais alguns testes. 📈 Primeiro, traçaremos as observações usando um `regplot`, que combina um gráfico de dispersão e sobrepõe os resultados em uma linha de regressão ideal:
 
 ```python
-# Gráfico de dispersión + regresión, realizado con seaborn
-sns.regplot(x="body_mass_index", y="response", data=diabetes)
+# Scatterplot + regressão, realizado com
+seaborn sns.regplot(x="body_mass_index" , y="response", data=diabetes)
 ```
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/diabetes_with_regression_1672268060049.png" alt="diabetes_with_regression_1672268060049.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guide-python3-linear-regression/master/assets/diabetes_with_regression_1672268060049.png " alt ="diabetes_with_regression_1672268060049.png" width="auto" height="auto">
 
-¡Bien 👍! Podemos ver que la recta ideal parece acompañar a las observaciones. 🧮 Realicemos entonces nuestra segunda prueba, consistente en calcular el _coeficiente de correlación de Pearson_ y su _valor P_ (o en inglés, _P-value_): 
+Bom 👍! Podemos ver que a linha ideal parece acompanhar as observações. 🧮 Façamos então nosso segundo teste, que consiste em calcular o _coeficiente de correlação de Pearson_ e seu _P-valor_ (ou em inglês, _P-value_):
 
-  1. El primero es nuevamente, una medida de co-variación entre las variables, tal que valores absolutos cercanos a `1` indican alta correlación, mientras que los cercanos a `0` indican correlación baja;
-  2. El segundo es una medida de confianza que nos dirá cuán _probable_ es que los resultados sean producto de la casualidad. Cuanto más cercana a cero, menos probable es que el resultado sea producto del azar y en la práctica se suele tomar cualquier valor por encima de `0.05` (o `0.01`, si se busca más rigor) como no significativo.
+  1. O primeiro é, novamente, uma medida de co-variação entre as variáveis, tal que valores absolutos próximos a `1` indicam alta correlação, enquanto aqueles próximos a `0` indicam baixa correlação;
+  2. A segunda é uma medida de confiança que nos dirá quão _provável_ é que os resultados sejam produto do acaso. Quanto mais próximo de zero, menos provável é que o resultado seja um produto do acaso e, na prática, qualquer valor acima de `0.05` (ou `0.01`, se mais rigor for procurado) geralmente é considerado não significativo.
 
 ```python
-# Coeficiente de correlación de Pearson y su valor P
+# Coeficiente de correlação de Pearson e seu valor P
 corr, pvalue = pearsonr(
-  x = diabetes['body_mass_index'], 
+  x = diabetes['body_mass_index'],
   y = diabetes['response'])
-print("Coeficiente de correlación de Pearson:", corr) 
-print("P-value:", pvalue) 
+print("Coeficiente de correlação de Pearson:", corr )
+print(" P-value:", pvalue)
 ```
 
-> Ejecutá esta nueva prueba y comparala con la correlación que calculaste anteriormente con `corr()`. ¿Qué conclusiones podés sacar?
+> Execute este novo teste e compare-o com a correlação calculada anteriormente com `corr()`. Que conclusões você pode tirar?
