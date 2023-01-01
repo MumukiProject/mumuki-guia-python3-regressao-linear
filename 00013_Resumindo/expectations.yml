@@ -2,16 +2,16 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:predecir_respuesta
+  inspection: Declares:prever_resposta
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:predecir_respuesta
+  inspection: DeclaresComputationWithArity1:prever_resposta
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: predecir_respuesta
+  binding: prever_resposta
   inspection: Not:Uses:modelo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: predecir_respuesta
+  binding: prever_resposta
   inspection: Uses:transformar_imc
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: predecir_respuesta
+  binding: prever_resposta
   inspection: UsesMath
