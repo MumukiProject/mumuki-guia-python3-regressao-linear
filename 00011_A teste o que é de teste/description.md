@@ -27,7 +27,7 @@ print("Declive:", list(zip(X.columns, modelo.coef_.flatten())))
 ...mas agora vamos testar a capacidade preditiva usando o par `(X_test, y_test)` :
  
 ```python
-print("Coeficiente de determinação R²:", modelo.score(X_test.values, y_test))
+print("Coeficiente de determinação R²:", modelo.score(X_test, y_test))
 ```
  
 Dessa forma, evitamos _trapacear_ e avaliar o modelo usando os próprios dados os quais foi treinado 😉.
