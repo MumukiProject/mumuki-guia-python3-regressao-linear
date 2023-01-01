@@ -22,7 +22,7 @@ corr, pvalue = pearsonr(
   x = diabetes['body_mass_index'],
   y = diabetes['response'])
 print("Coeficiente de correlação de Pearson:", corr)
-print(" P-value:", pvalue)
+print("P-value:", pvalue)
 ```
 
 > Execute este novo teste e compare-o com a correlação calculada anteriormente com `corr()`. Que conclusões você pode tirar?
