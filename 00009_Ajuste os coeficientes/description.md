@@ -1,7 +1,7 @@
 Agora que validamos gráfica e numericamente que a correlação é significativa (embora não muito forte, apenas ≈ `0.6`), podemos finalmente desenvolver (ou como costuma-se dizer, _ajustar_) nosso modelo de regressão linear simples. :raised_hands: Ajustar o modelo consiste em estimar, a partir dos dados disponíveis:
  
  - a linha que minimiza a distância `ε` entre as observações de `x` e esta;
- - encontrar os valores dos coeficientes de regressão que maximizam a probabilidade de Deixe a linha prever os valores observados.
+ - encontrar os valores dos coeficientes de regressão que maximizam a probabilidade de que a linha preveja os valores observados.
  
 O método mais comumente usado para isso é o método dos mínimos quadrados (ou _OLS_) e é implementado por `scikit-learn` usando `LinearRegression()`:
  
