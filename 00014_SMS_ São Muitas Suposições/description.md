@@ -3,7 +3,7 @@ Acabamos de ter uma introdução à regressão linear simples, mas esta é apena
   * O ajuste de modelos de regressão linear múltipla;
   * A validação da distribuição dos dados (saber si son normales o no nos ayudará a identificar qué métricas de correlación utilizar);
   * A determinação dos intervalos entre os quais as previsões são válidas;
-  * O uso de variáveis ​​categóricas `x`;
+  * O uso de variáveis categóricas `x`;
   * O filtragem de valores fora de série;
   * A aplicação de transformações para possibilitar a aplicação de modelos de regressão linear em (algumas) relações que, à primeira vista, não o são.
 
