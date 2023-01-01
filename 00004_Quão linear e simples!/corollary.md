@@ -12,4 +12,4 @@ Somente a segunda equação `f(x) = b + m × x` é na verdade uma linha reta em 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-regresion-lineal/master/assets/lineal_1672254845410.png" alt="lineal_1672254845410.png" width="auto" height="auto">
 
 
-Precisamente, ao executar uma regressão linear **simples** (isto é, entre exatamente duas variáveis), vamos aproximar a relação entre os valores observados para uma equação linear, com uma inclinação (`m`) e uma ordenada à origem (`b`). As regressões lineares _múltiplas_ são um pouco 🤏 mais complexas e por isso vamos focar nas primeiras.
+Precisamente, ao executar uma regressão linear **simples** (isto é, entre exatamente duas variáveis), vamos aproximar a relação entre os valores observados para uma equação linear, com um declive (`m`) e uma ordenada à origem (`b`). As regressões lineares _múltiplas_ são um pouco 🤏 mais complexas e por isso vamos focar nas primeiras.
