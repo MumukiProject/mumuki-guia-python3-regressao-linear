@@ -33,7 +33,7 @@ def transformar_imc(imc):
    # https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt
    # Não desenvolveremos o processo para obter esses coeficientes, mas sim
    # convidamos você a deduzir usando o que vimos nesta lição 🤭
-   retorno (imc - 26.375791855203694) / 92.78055277
+   return (imc - 26.375791855203694) / 92.78055277
 
 def prever_resposta(imc):
    return modelo.predict([[transformar_imc(imc)]])[0]
