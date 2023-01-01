@@ -4,7 +4,7 @@ Como mencionamos anteriormente, o método mais utilizado para o ajuste do modelo
 <code>ε<sup>2</sup> = ∑ (yi - ŷi)<sup>2</sup></code>
 </pre >
 
-.. .onde <code>y<sub>i</sub></code> são os valores observados e <code>ŷ<sub>i</sub></code> os valores estimados.
+...onde <code>y<sub>i</sub></code> são os valores observados e <code>ŷ<sub>i</sub></code> os valores estimados.
 
 Mas essa fórmula tem dupla utilidade, pois podemos partir dela para gerar outro parâmetro da bondade do modelo 😇: a raiz do erro quadrático médio (_RMSE_, por sua sigla em inglês). O RMSE mede apenas a raiz quadrada do erro (<code>∑ (yi - ŷi)<sup>2</sup></code>), em média. Novamente `scikit-learn` nos fornece uma função `mean_squared_error` para nos ajudar com este cálculo:
 
