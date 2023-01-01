@@ -11,4 +11,4 @@ sns.lineplot(x="body_mass_index", y=modelo.predict(X=X.values), data=diabetes)
 
 ... você vai perceber que muitos dos resultados não coincidem ao esperado, porque afinal ainda é a nossa primeira aproximação.
 
-🧑‍🌾 _Não é muito, mas é trabalho honesto._
+:woman_farmer::man_farmer: _Não é muito, mas é trabalho honesto._
