@@ -1,37 +1,37 @@
-🔮 Al trabajar con modelos predictivos, no solo es importante ajustarlos, sino también cuantificar su capacidad para predecir nuevas observaciones.
-
-Para poder hacer esta evaluación, vamos a volver a entrenarlo, pero aplicando una metodología  muy frecuente en el campo del aprendizaje automático: separar los datos en dos conjuntos de datos, uno de entrenamiento (`train`) y otro de prueba (`test`). Esto lo resolveremos con la ayuda de la función `train_test_split` de `scikit-learn`, que particionará nuestras `X` e `y`, cada una, en dos conjuntos: 
-
+🔮 Ao trabalhar com modelos preditivos, não é apenas importante ajustá-los, mas também quantificar sua capacidade de prever novas observações.
+ 
+Para realizar esta avaliação, vamos treiná-lo novamente, mas aplicando uma metodologia muito comum na área de aprendizado automático: separar os dados em dois conjuntos de dados, um para treinamento (`train`) e outro para teste (`test` ). Vamos resolver isso com a ajuda da função `scikit-learn` `train_test_split`, que particionará nossas `X` e `y`, cada uma, em dois conjuntos:
+ 
 ```python
-X = diabetes[['body_mass_index']]
+X = diabetes[['body_mass_index'] ]
 y = diabetes['response']
-
+ 
 X_train, X_test, y_train, y_test = train_test_split(
   X.values.reshape(-1,1),
   y.values,
-  train_size = 0.8,
+  train_size = 0,8,
   random_state = 42,  
   shuffle = True
 )
-```                                    
-
-Luego, usaremos el par `(X_train, y_train)` para ajustar los coeficientes de nuestro regresor...
-
+```                               	 
+ 
+Então, usaremos o par `(X_train, y_train)` para ajustar os coeficientes de nosso regressor...
+ 
 ```python
-modelo = LinearRegression()
+model = LinearRegression()
 modelo.fit(X = X_train, y = y_train)
-print("Ordenada:", modelo.intercept_)
-print("Pendiente:", list(zip(X.columns, modelo.coef_.flatten())))
+print("Intercepto :", modelo.intercept_)
+print("Declive:", list(zip(X.columns, modelo.coef_.flatten())))
 ```
-
-...pero ahora evaluaremos la capacidad predictiva usando el par `(X_test, y_test)`:
-
+ 
+...mas agora vamos testar a capacidade preditiva usando o par `(X_test, y_test)` :
+ 
 ```python
-print("Coeficiente de determinación R²:", modelo.score(X_test, y_test))
+print("Coeficiente de determinação R²:", modelo.score(X_test.values, y_test))
 ```
-
-De esta forma, evitaremos _hacer trampa_ y evaluar al modelo usando los propios datos con lo que fue entrenado 😉.
-
-> Veamos si se va entendiendo: entrená nuevamente al modelo, pero siguiendo esta metodología. Probá hacerlo varias veces, con diferentes valores de `random_state`, o directamente sin especificar ningún valor (para que `train_test_split` arroje siempre divisiones al azar diferentes)
+ 
+Dessa forma, evitamos _trapacear_ e avaliar o modelo usando os próprios dados os quais foi treinado 😉.
+ 
+> Vamos ver se entendeu: treine o modelo novamente, mas seguindo essa metodologia. Tente fazer isso várias vezes, com diferentes valores `random_state`, ou sem especificar nenhum valor (para que `train_test_split` sempre retorne diferentes divisões aleatórias)
 >
-> ¿Ves ahora algún cambio en los coeficientes y en <code>R<sup>2</sup></code>?
+> Você vê agora alguma mudança nos coeficientes e em <code>R<sup>2</sup></code>?

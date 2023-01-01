@@ -10,22 +10,21 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Los valores de la ordenada y la pendiente se mantienen constantes
+  value: Os valores de ordenada e declive são mantidos constantes
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Los valores de la ordenada y la pendiente son menores
+  value: Os valores de ordenada e declive são menores
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Los valores de la ordenada y la pendiente a veces son menores, a veces son
-    mayores
+  value: Os valores de ordenada e declive às vezes são menores, às vezes são maiores
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>R<sup>2</sup></code> se mantiene constante"
+  value: "<code>R<sup>2</sup></code> são mantido constante"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>R<sup>2</sup></code> es menor"
+  value: "<code>R<sup>2</sup></code> é menor"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>R<sup>2</sup></code> a veces es menor, a veces es mayor"
+  value: "<code>R<sup>2</sup></code> às vezes é menor, às vezes é maior"
   checked: true
 name: Para el test lo que es del test
