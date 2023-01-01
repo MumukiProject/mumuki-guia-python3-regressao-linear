@@ -11,7 +11,7 @@ Excelente!
 ...e obtenha um vetor de coeficientes (`coef_`)...
 
 <pre>
-<code>coef_ = (β<sub>1</sub>, β<sub>2</sub>, ,..., β<sub>n</sub>)</code>
+<code>coef_ = (β<sub>1</sub>, β<sub>2</sub>,..., β<sub>n</sub>)</code>
 </pre>
 
 ...com o qual formará a expressão linear:
