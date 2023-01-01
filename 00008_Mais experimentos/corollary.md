@@ -30,8 +30,9 @@ Da mesma forma, podemos usar a função `spearmanr` de `scipy`:
 SpearmanrResult(correlation=0.5613820101065616, pvalue=4.567023927725032e-38)
 ```
 
-E por que existem vários métodos? É que cada um serve para situações diferentes! Especificamente, `pearsonr` destina-se a ser usado com variáveis ​​que seguem uma [distribuição normal](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_normal)...
+E por que existem vários métodos? É que cada um serve para situações diferentes! Especificamente, `pearsonr` destina-se a ser usado com variáveis que seguem uma [distribuição normal](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_normal)...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EvHiee7gs9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-... Considerando que `spearmanr` não tem esse requisito (que devemos primeiro testar realizando [um teste de normalidade como o de Shapiro-Wilk](https://pt.wikipedia.org/wiki/Teste_de_Shapiro%E2%80%93Wilk)), então a partir de agora usaremos o último.
+... considerando que `spearmanr` não tem esse requisito (que devemos primeiro testar realizando [um teste de normalidade como o de Shapiro-Wilk](https://pt.wikipedia.org/wiki/Teste_de_Shapiro%E2%80%93Wilk)), então a partir de agora usaremos o último.
+
