@@ -7,8 +7,6 @@ Para continuar aprendendo o que é um modelo de **regressão linear simples** e 
 
 ```python
 import pandas as pd
-import numpy as np
-
 import matplotlib.pyplot as plt
 import seaborn as sns
 
