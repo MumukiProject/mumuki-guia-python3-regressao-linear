@@ -19,4 +19,5 @@ rmse = mean_squared_error(
 
 print("RMSE:", rmse)
 ```
+
 > Agora é sua vez: gere uma nova partição `train / test` de `75% / 25%` e `random_state = 42` e liste os parâmetros obtidos. 
