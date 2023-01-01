@@ -18,4 +18,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`body_mass_index = 949.43 +  152.13 × response`"
   checked: false
-name: "¡Ajústense los coeficientes!"
+name: Ajuste os coeficientes
