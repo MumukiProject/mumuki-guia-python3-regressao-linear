@@ -1,4 +1,4 @@
-Terminamos? Sim e não :person_shrugging:. Sim, por um lado conseguimos constatar que existe uma ligação entre ambas as variáveis ​​(`corr ≈ 0,6`) e que essa ligação não parece ser mero produto do acaso (`pvalor ≪ 0,05`), e por o outro conseguimos aproximá-lo a uma reta, mas ainda estamos longe de ter avaliado o modelo completamente. 🙃
+Terminamos? Sim e não :person_shrugging:. Sim, por um lado conseguimos constatar que existe uma ligação entre ambas as variáveis (`corr` ≈ `0.6`) e que essa ligação não parece ser mero produto do acaso (`pvalue` ≪ `0.05`, e por o outro conseguimos aproximá-lo a uma reta, mas ainda estamos longe de ter avaliado o modelo completamente. 🙃
 
 ❓É que ainda existem muitas coisas que não sabemos! Por exemplo: quão bom é o modelo? Os dados realmente estão na reta? A que distância dela?
 
