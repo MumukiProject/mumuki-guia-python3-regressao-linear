@@ -3,7 +3,7 @@
 Para realizar esta avaliação, vamos treiná-lo novamente, mas aplicando uma metodologia muito comum na área de aprendizado automático: separar os dados em dois conjuntos de dados, um para treinamento (`train`) e outro para teste (`test` ). Vamos resolver isso com a ajuda da função `scikit-learn` `train_test_split`, que particionará nossas `X` e `y`, cada uma, em dois conjuntos:
  
 ```python
-X = diabetes[['body_mass_index'] ]
+X = diabetes[['body_mass_index']]
 y = diabetes['response']
  
 X_train, X_test, y_train, y_test = train_test_split(
