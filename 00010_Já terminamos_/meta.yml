@@ -10,9 +10,9 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`body_mass_index` explica perfectamente la respuesta"
+  value: "`body_mass_index` explica perfeitamente a resposta"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`body_mass_index` no explica perfectamente la respuesta"
+  value: "`body_mass_index` não explica perfeitamente a resposta"
   checked: true
 name: Já terminamos?
