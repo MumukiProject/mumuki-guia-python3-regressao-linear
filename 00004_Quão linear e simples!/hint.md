@@ -11,7 +11,7 @@ df = pd .DataFrame({"x": map(lambda x: x/10, range(1, 50))})
 # fazendo b = arbitrariamente 10 e m = 2
 df["b × m + x"] = df["x"].map(lambda x: 10 * 2 + x)
 df["b + m × x"] = df["x"].map(lambda x: 10 + 2 * x)
-df["x² + x"] = df["x"].map(lambda x: x**x + x)
+df["x² + x"] = df["x"].map(lambda x: x**2 + x)
 df["(m / x) + b"] = df["x"].map(lambda x: 5 / x + 12)
 df
 
