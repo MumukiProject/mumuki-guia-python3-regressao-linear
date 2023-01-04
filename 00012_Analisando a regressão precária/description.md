@@ -2,7 +2,7 @@ Como mencionamos anteriormente, o método mais utilizado para o ajuste do modelo
 
 <pre>
 <code>ε<sup>2</sup> = ∑ (yi - ŷi)<sup>2</sup></code>
-</pre >
+</pre>
 
 ...onde <code>y<sub>i</sub></code> são os valores observados e <code>ŷ<sub>i</sub></code> os valores estimados.
 
