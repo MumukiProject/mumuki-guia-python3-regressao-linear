@@ -14,7 +14,8 @@ sns.regplot(x="body_mass_index" , y="response", data=diabetes)
 Bom 👍! Podemos ver que a linha ideal parece acompanhar as observações. 🧮 Façamos então nosso segundo teste, que consiste em calcular o _coeficiente de correlação de Pearson_ e seu _P-valor_ (ou em inglês, _P-value_):
 
   1. O primeiro é, novamente, uma medida de co-variação entre as variáveis, tal que valores absolutos próximos a `1` indicam alta correlação, enquanto aqueles próximos a `0` indicam baixa correlação;
-  2. A segunda é uma medida de confiança que nos dirá quão _provável_ é que os resultados sejam produto do acaso. Quanto mais próximo de zero, menos provável é que o resultado seja um produto do acaso e, na prática, qualquer valor acima de `0.05` (ou `0.01`, se mais rigor for procurado) geralmente é considerado não significativo.
+  2. A segunda é uma medida de confiança que nos dirá quão _provável_ é que os resultados sejam produto do acaso. Quanto mais próximo de zero, menos provável é que o resultado seja um produto do acaso. Na prática, qualquer resultado com _pvalue_ acima de `0.05` (ou `0.01`, se mais rigor for procurado) geralmente é considerado não significativo.
+  
 
 ```python
 # Coeficiente de correlação de Pearson e seu valor P
