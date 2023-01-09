@@ -6,4 +6,4 @@ O aprendizado automático  faz parte de um ramo maior da ciência da computaçã
  * [Inteligência artificial: amigo ou inimigo?](https://www.youtube.com/watch?v=znq3ql6wqnE)
  * [Estamos automatizando o racismo?](https://www.youtube.com/watch?v=Ok5sKLXqynQ)
 
-Que conclusões você pode tirar?
+> Que conclusões você pode tirar?
