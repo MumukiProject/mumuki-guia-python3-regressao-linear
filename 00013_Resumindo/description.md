@@ -48,6 +48,5 @@ Agora os resultados fazem mais sentido :clap::
 190.17295167042818
 ```
 
-> Agora é a sua vez: eu escrevi outra versão da função `prever_resposta`, mas desta vez ela não usa o `modelo` do último exercício, mas seu <code>β<sub>0</sub></code> valores e <code>β<sub>1</sub></code>.
->
-
+> Agora é sua vez: escreva outra versão da função `predict_response`, mas que não use `model` dentro da função, mas os valores de <code>β<sub>0</sub></code> e <code>β<sub>1</sub></code> que você obteve anteriormente.
+> 
