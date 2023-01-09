@@ -1,7 +1,7 @@
-🥱 Embora possamos interpretar os valores RMSE levando em consideração a unidade `y`, não seria mais conveniente ajustar este valor para que seja expresso em um maneira adimensional? É assim que a métrica _RMSE normalizada_ surge:
+🥱 Embora possamos interpretar os valores RMSE levando em consideração a unidade `y`, não seria mais conveniente ajustar este valor para que seja expresso em um maneira adimensional? É assim que a métrica _RMSE normalizado_ surge:
 
 <pre>
-<code>RMSE<sub>normalizada</sub> = RMSE / (y<sub>max</sub> - y<sub>min</sub>)</code>
+<code>RMSE<sub>normalizado</sub> = RMSE / (y<sub>max</sub> - y<sub>min</sub>)</code>
 </pre>
 
 Desta forma podemos obter valores entre `0` e `1`, onde os valores mais próximos de `0` representam modelos de melhor ajuste.
