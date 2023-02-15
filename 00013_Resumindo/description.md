@@ -10,7 +10,7 @@ def prever_resposta(imc):
 E agora vamos tentar com um índice de massa corporal ["normal" segundo a OMS](https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal):
 
 ```python
-ム antecipar_resposta(20)
+ムantecipar_resposta(20)
 1881.9868473136542
 ```
 
@@ -42,9 +42,9 @@ def prever_resposta(imc):
 Agora os resultados fazem mais sentido :clap::
 
 ```python
-ム prever_resposta(20)
+ムprever_resposta(20)
 85.05642088787117
-ム prever_resposta(30)
+ムprever_resposta(30)
 190.17295167042818
 ```
 
