@@ -8,26 +8,20 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Escrever programas simples em Python
+- value: Escrever programas simples em Python
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Corrigir erros ortográficos
+- value: Corrigir erros ortográficos
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Gerar textos automaticamente
+- value: Gerar textos automaticamente
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Oferecer assistência em tarefas rotineiras por meio de comandos de voz
+- value: Oferecer assistência em tarefas rotineiras por meio de comandos de voz
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Detectar fraudes bancárias
+- value: Detectar fraudes bancárias
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Recomendar filmes e músicas
+- value: Recomendar filmes e músicas
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Traduzir textos em diferentes idiomas
+- value: Traduzir textos em diferentes idiomas
   checked: true
 name: A máquina que aprende

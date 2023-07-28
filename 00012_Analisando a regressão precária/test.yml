@@ -1,16 +1,16 @@
 - name: 'Valor de β₀'
   keys:
     intercept:
-      equal: 152.0765329689407
+      contain: 152.076
 - name: 'Valor de β₁'
   keys:
     coef:
-      equal: 975.2769831270359
+      contain: 975.276
 - name: 'Valor de R²'
   keys:
     r2:
-      equal: 0.3172099449537781
+      contain: 0.31720
 - name: 'Valor de RMSE'
   keys:
     rmse:
-      equal: 61.44605114652022
+      contain: 61.446

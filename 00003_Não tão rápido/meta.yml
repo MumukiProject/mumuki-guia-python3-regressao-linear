@@ -8,21 +8,18 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: A inteligência artificial permite o desenvolvimento automático de algoritmos
+- value: A inteligência artificial permite o desenvolvimento automático de algoritmos
     objetivos e livres de viés
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Se os dados usados ​​para treinar algoritmos de aprendizado automático  forem
+- value: Se os dados usados ​​para treinar algoritmos de aprendizado automático  forem
     tendenciosos, esses vieses serão transferidos para o modelo treinado
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: As empresas raramente coletam dados de seus clientes e das pessoas que os
+- value: As empresas raramente coletam dados de seus clientes e das pessoas que os
     usam
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: A privacidade da informação é um problema relevante apenas para altos cargos
+- value: A privacidade da informação é um problema relevante apenas para altos cargos
     políticos e empresariais
   checked: false
 name: Não tão rápido

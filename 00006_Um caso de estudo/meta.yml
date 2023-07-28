@@ -8,18 +8,15 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: A tabela `diabetes` tem 8 colunas
+- value: A tabela `diabetes` tem 8 colunas
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: A tabela `diabetes` tem 10 colunas
+- value: A tabela `diabetes` tem 10 colunas
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: A tabela `diabetes` tem 11 colunas
+- value: A tabela `diabetes` tem 11 colunas
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: É possível gerar um modelo de regressão linear simples que relacione todas
+- value: É possível gerar um modelo de regressão linear simples que relacione todas
     as suas variáveis
   checked: false
 name: Um caso de estudo

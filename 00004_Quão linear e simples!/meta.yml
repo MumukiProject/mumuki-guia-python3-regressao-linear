@@ -8,17 +8,14 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>f(x) = b × m + x</code>"
+- value: "<code>f(x) = b × m + x</code>"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>f(x) = b + m × x</code>"
+- value: "<code>f(x) = b + m × x</code>"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>f(x) = x<sup>2</sup> + x</code>"
+- value: "<code>f(x) = x<sup>2</sup> + x</code>"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>f(x) = m / x + b</code>"
+- value: "<code>f(x) = m / x + b</code>"
   checked: false
 name: Quão linear e simples!

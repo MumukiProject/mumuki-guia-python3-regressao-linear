@@ -8,23 +8,18 @@ extra_visible: false
 language: text
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Os valores de ordenada e declive são mantidos constantes
+- value: Os valores de ordenada e declive são mantidos constantes
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Os valores de ordenada e declive são menores
+- value: Os valores de ordenada e declive são menores
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Os valores de ordenada e declive às vezes são menores, às vezes são maiores
+- value: Os valores de ordenada e declive às vezes são menores, às vezes são maiores
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>R<sup>2</sup></code> são mantido constante"
+- value: "<code>R<sup>2</sup></code> são mantido constante"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>R<sup>2</sup></code> é menor"
+- value: "<code>R<sup>2</sup></code> é menor"
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "<code>R<sup>2</sup></code> às vezes é menor, às vezes é maior"
+- value: "<code>R<sup>2</sup></code> às vezes é menor, às vezes é maior"
   checked: true
 name: A teste o que é de teste
